@@ -34,7 +34,7 @@ A modular, educational Python-based port scanning tool designed for cybersecurit
 ### Installation
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/your-username/PortScannerPractice.git
+   git clone https://github.com/rhizzyxvaici171-cloud/portia
    cd PortScannerPractice
    ```
 2. Verify Python version:
