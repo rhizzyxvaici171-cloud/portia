@@ -1,0 +1,21 @@
+============================================================
+          Port Scanner Practice - Scan Report          
+============================================================
+Generated on: 2026-11-05 23:50:27
+Total open ports found: 2
+------------------------------------------------------------
+
+Port: 22 | Status: open | Service: SSH
+  Security Implication: Secure remote login. Risk of password brute-forcing if key authentication is not enforced.
+  Banner: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+----------------------------------------
+Port: 80 | Status: open | Service: HTTP
+  Security Implication: Unencrypted web traffic. Sensitive data transmitted without SSL/TLS can be intercepted.
+  Banner: HTTP/1.1 200 OK
+Date: Thu, 05 Nov 2026 22:31:21 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+----------------------------------------

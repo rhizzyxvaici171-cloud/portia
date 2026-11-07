@@ -1,0 +1,52 @@
+{
+  "name": "portscannerpractice",
+  "title": "PortScannerPractice",
+  "description": "Create a basic port scanner program for cybersecurity practice.",
+  "language": "python",
+  "created": 1793913207.9471407,
+  "updated": 1793914578.1548126,
+  "status": "built",
+  "entry": "main.py",
+  "summary": "A modular, educational Python port scanner for cybersecurity practice featuring TCP connect scanning, multi-threaded execution, banner grabbing, service identification, exportable scan reports, and interactive learning quizzes.",
+  "plan": [
+    {
+      "path": "main.py",
+      "purpose": "Application entry point supporting command-line execution flags and interactive console mode."
+    },
+    {
+      "path": "scanner.py",
+      "purpose": "Core port scanning engine handling socket connection tests, concurrent execution, timeout management, banner grabbing, and host reachability checks."
+    },
+    {
+      "path": "services.py",
+      "purpose": "Database of common network ports, associated service names, protocol details, and educational security implications."
+    },
+    {
+      "path": "exporter.py",
+      "purpose": "Export module for formatting and saving scan results into JSON, CSV, and human-readable text reports."
+    },
+    {
+      "path": "education.py",
+      "purpose": "Interactive port identification quiz and study helper to reinforce cybersecurity fundamentals."
+    },
+    {
+      "path": "cli.py",
+      "purpose": "Command-line interface formatting, argument parsing, and interactive menu system."
+    },
+    {
+      "path": "README.md",
+      "purpose": "Comprehensive user guide containing ethical disclaimer, usage instructions, CLI arguments, and practice scenarios."
+    }
+  ],
+  "dependencies": [],
+  "errors": [],
+  "runs": [
+    {
+      "at": 1793914578.154739,
+      "ok": false,
+      "rc": 1,
+      "seconds": 1.3,
+      "tail": "\n======================================================================\n  ____  ___   ____ _____   ____   ____  ___   ____  ____  _____ ____ \n |  _ \\/ _ \\ / ___|_   _| / ___| / ___|/ _ \\ / ___|/ ___|| ____|  _ \\\n | |_) | | | | |    | |   \\___ \\| |   / /_\\ | |  _| |  _ |  _| | |_) |\n |  __/| |_| | |___ | |    ___) | |___|  _  | |_| | |_| || |___|  _ < \n |_|    \\___/ \\____||_|   |____/ \\____|_| |_|\\____|\\____||_____|_| \\_\\\n======================================================================\n      Ethical Cybersecurity Port Scanner & Educational Tool\n               [FOR AUTHORIZED PRACTICE & STUDY ONLY]\n======================================================================\n\n\n=== Main Menu ===\n1. Start TCP Port Scan\n2. Take Port Security Quiz\n3. Exit\n\nSelect an option (1-3): Traceback (most recent call last):\n  File \"D:\\JARVIS\\Mark-LII-main\\programs\\portscannerpractice\\main.py\", line 52, in <module>\n    main()\n    ~~~~^^\n  File \"D:\\JARVIS\\Mark-LII-main\\programs\\portscannerpractice\\main.py\", line 20, in main\n    run_interactive_menu()\n    ~~~~~~~~~~~~~~~~~~~~^^\n  File \"D:\\JARVIS\\Mark-LII-main\\programs\\portscannerpractice\\cli.py\", line 139, in run_interactive_menu\n    choice = input(\"\\nSelect an option (1-3): \").strip()\n             ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nEOFError: EOF when reading a line\n"
+    }
+  ]
+}
